@@ -60,12 +60,12 @@ canvas{
 
 /*--- Floating Main Panel ----*/
 
-.panel li{
+.panel li, .newLoan-panel li{
 	-webkit-transition:background 0.2s ease,color 0.2s ease;
 	transition:background 0.2s ease,color 0.2s ease;
 }
 
-.panel li a{
+.panel li a, .newLoan-panel li a{
 	-webkit-transition:color 0.2s ease;
 	transition:color 0.2s ease;
 }
@@ -83,13 +83,47 @@ canvas{
 	margin:-110px 0 0 -100px;
 	padding:20px;border-radius:4px;
 	box-sizing:border-box;z-index:100;
+
 }
 
-.panel.hide{
+.newLoan-panel {
+	font-family:'Source Sans Pro';
+	font-size:1.3em;
+	position:absolute;
+	background: #eee;
+	z-index:10;
+	width: 250;
+	height: 270;
+	top: 50%;
+	left: 50%;
+	margin:-110px 0 0 -100px;
+	padding: 20px;
+	padding:20px;border-radius:4px;
+	box-sizing:border-box;z-index:100;
+}
+
+.panel2 {
+	font-family: 'Source Sans Pro';
+	font-size: 1.3em;
+	position: absolute;
+	z-index: 10;
+	width: 250;
+	height: 270;
+	background: #eee;
+	top: 50%;
+	left: 50%;
+	margin: 125px 0 0 -75px;
+	padding: 20px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	z-index: 100;
+}
+
+.panel.hide, .newLoan-panel.hide{
 	display:none;
 }
 
-.panel h1{
+.panel h1, .newLoan-panel h1{
 	font-size:1.8em;
 	font-weight:700;
 	text-align:center;
@@ -104,7 +138,7 @@ canvas{
 	font-size:.75em;
 }
 
-.panel h2{
+.panel h2, .newLoan-panel h2{
 	font-weight:400;
 	font-size:.8em;
 	margin-bottom:16px;
@@ -112,7 +146,7 @@ canvas{
 	line-height:1.3em;
 }
 
-.panel li{
+.panel li, .newLoan-panel li{
 	font-size:1.1em;
 	font-weight:400;
 	text-align:center;
@@ -124,33 +158,33 @@ canvas{
 	border-radius:4px;
 }
 
-.panel li a{
+.panel li a, .newLoan-panel li a{
 	display:block;
 	width:100%;
 	height:100%;
 	color:#222;
 }
 
-.panel li a:visited{
+.panel li a:visited, .newLoan-panel li a:visited{
 	color:#222;
 }
 
-.panel li a span:after{
+.panel li a span:after, .newLoan-panel li a span:after{
 	font-family:'icomoon';
 	margin-left:10px;
 	vertical-align:top;
 }
 
-.panel li .label {
+.panel li .label, .newLoan-panel li .label{
 	display:inline-block;
 	vertical-align:top;
 }
 
-.panel li:hover{
+.panel li:hover, .newLoan-panel li:hover{
 	background:#222;
 	color:#fff;
 }
 
-.panel li:hover a{
+.panel li:hover a, .newLoan-panel li:hover a{
 		color:#fff;
 	}
