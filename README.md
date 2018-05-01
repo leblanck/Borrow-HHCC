@@ -1,7 +1,7 @@
 # Borrow-HHCC
 Loaner Management System for Hill Holliday
 
-http://www.borrow-hhcc.com
+http://www.borrow.hhcc.com
 
 # About Borrow
 *******************************************************************************
